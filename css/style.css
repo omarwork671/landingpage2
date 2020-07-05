@@ -1,0 +1,514 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: ar-font !important;
+    margin: 0px;
+}
+
+header.header video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    display: block;
+}
+
+header.header .overlay {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar {
+    direction: rtl;
+}
+
+header.header .overlay .header-text h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    line-height: 46px;
+    text-align: right;
+}
+
+header.header .overlay .header-text p {
+    font-size: 18px;
+    color: #5d5d5d;
+    line-height: 32px;
+    margin-bottom: 50px;
+    text-align: right;
+}
+
+header.header .overlay .header-text {
+    margin-top: 7rem;
+}
+
+header.header .overlay .buttons {
+    border-radius: 52px !important;
+    font-family: ar-font;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 8px 25px !important;
+    text-align: right;
+}
+
+header.header .overlay .buttons button:first-of-type {
+    background-color: #7233a2;
+    color: #fff;
+    margin-left: 15px;
+    border-radius: 52px !important;
+    font-family: ar-font;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 8px 25px !important;
+    border: none;
+}
+
+.none {
+    color: transparent;
+    color: #7233a2;
+    border-radius: 52px !important;
+    font-family: ar-font;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 8px 25px !important;
+    border: none;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.none:hover {
+    background-color: #7233a2;
+    color: #fff;
+    text-decoration: none;
+}
+
+header.header .overlay .product-img {
+    position: relative;
+    right: -40px;
+    margin-bottom: 30px;
+}
+
+header.header .overlay .product-img img.label {
+    position: absolute;
+    right: -50px;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header.header .overlay .product-img p {
+    position: absolute;
+    right: 0px;
+    top: -30px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+header.header .overlay .product-img p span {
+    display: block;
+}
+
+header.header .overlay .navbar {
+    margin-bottom: 30px;
+}
+
+/*features*/
+
+section.features {
+    background-color: white;
+    padding: 25px 0;
+}
+
+section.features .title h3 {
+    color: #555555;
+    font-size: 36px;
+    line-height: 120px;
+}
+
+section.features .title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    height: 2px;
+    background-color: #7233a2;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.features .title {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/*المميزات*/
+
+section.features .media {
+    text-align: right;
+}
+
+section.features .feature {
+    padding: 70px 0;
+    border-bottom: 3px #eeeeee solid;
+}
+
+section.features .feature h5 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #7233a2;
+    border-right: 2px solid #7233a2;
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+
+section.features .feature .media-body p {
+    color: #555555;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+section.features .feature .media img {
+    margin: 0 4rem;
+}
+
+section.features .feature .media-body {
+    margin-top: 50px;
+}
+
+section.features .feature:nth-of-type(even) .media .media-body h5 {
+    border-left: 2px solid #7233a2;
+    border-right: 0;
+    text-align: left;
+}
+
+section.features .feature:nth-of-type(even) .media .media-body p {
+    text-align: left;
+}
+
+/*خطط الأسعار*/
+
+section.prices {
+    background-color: #f7f7f7;
+    padding: 55px 0;
+}
+
+section.prices .title h3 {
+    font-size: 30px;
+    color: #555555;
+}
+
+section.prices .plan {
+    margin-top: 100px;
+    border: 2px #ededed solid;
+    padding-top: 15px;
+    background-color: #ffffff;
+    color: #a9a9a9;
+}
+
+section.prices .plan p {
+    font-size: 18px;
+    color: #a044ff;
+}
+
+section.prices .plan h3 {
+    font-size: 48px;
+    color: #a9a9ab;
+    margin: 30px auto;
+}
+
+section.prices .plan h3 span {
+    font-size: 15px;
+    vertical-align: bottom;
+}
+
+section.prices .plan ul li {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+section.prices .plan ul {
+    padding: 0;
+    margin: 0;
+}
+
+section.prices .plan button {
+    border: 1px solid #7233a2;
+    font-size: 15px;
+    background-color: #fff;
+    color: #7233a2;
+    font-family: ar-font;
+    padding: .5rem 1.75rem;
+    margin-bottom: 10px;
+    transition: linear 0.3s all;
+}
+
+section.prices .plan button:hover {
+    background-color: #7233a2;
+    color: white;
+}
+
+.popular {
+    padding-top: 55px !important;
+    margin-top: 55px !important;
+}
+
+.popular button {
+    background-color: #7233a2 !important;
+    color: #fff !important;
+    border: 1px solid #7233a2 !important;
+}
+
+.popular button:hover {
+    background-color: white !important;
+    color: #a044ff !important;
+}
+
+/*questions*/
+
+section.fact {
+    padding: 55px 0;
+    background-color: #fff;
+    text-align: right;
+}
+
+section.fact .title h3 {
+    font-size: 30px;
+    color: #555555;
+    margin-bottom: 60px;
+}
+
+section.fact .card {
+    margin-bottom: 15px;
+    border: 1px solid #ebebeb;
+    border-radius: 15px;
+}
+
+section.fact .card .card-header {
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+section.fact .card .card-header h5 a {
+    font-size: 15px;
+    color: #555555;
+    display: block;
+    font-weight: bold;
+    position: relative;
+}
+
+section.fact .card .card-header h5 a i {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+section.fact .card .card-block {
+    font-size: 15px;
+    color: #9b9999;
+    line-height: 24px;
+    padding: 0 1.25rem 1.25rem;
+}
+
+section.fact .card .card-header h5 a:hover, section.fact .card .card-header h5 a:focus {
+    text-decoration: none;
+}
+
+section.fact .card .card-header h5 a.collapsed[aria-expanded="false"] i:before {
+    content: "\f062";
+}
+
+/*الفيديو*/
+
+section.video {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+section.video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+section.video .overlay {
+    background-color: rgba(106, 48, 147, 0.7);
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+section.video button {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    font-size: 30px;
+    color: #fff;
+    font-family: ar-font;
+    background-color: transparent;
+    border: 0;
+    transform: translate(50%, -50%);
+    outline: none;
+}
+
+section.video button i {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #ffff;
+    margin-bottom: 50px;
+    line-height: 90px;
+}
+
+/*contact*/
+
+section.contact {
+    background-color: #131313;
+    padding: 60px 0 40px;
+    text-align: right;
+}
+
+section.contact .title h4 {
+    color: #758594 !important;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+section.contact .contact-us form .form-group {
+    margin-bottom: 6px;
+}
+
+section.contact .contact-us form .form-group input, section.contact .contact-us form .form-group textarea {
+    background-color: #242424;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    color: #aeadad;
+}
+
+section.contact .contact-us form button {
+    font-size: 18px;
+    color: #fff;
+    font-family: ar-font;
+    background-color: #a044ff;
+    padding: 7px 24px;
+    outline: none;
+    border: none;
+    float: left;
+}
+
+section.contact .contact-us form .error {
+    color: red;
+}
+
+/*المنتجات الاكثر مشاهدة */
+
+section.contact .other-products .title h4 {
+    font-size: 18px;
+    line-height: 50px;
+    color: #758594;
+}
+
+section.contact .other-products .media {
+    margin-bottom: 25px;
+}
+
+section.contact .other-products .media img {
+    margin-left: 20px;
+}
+
+section.contact .other-products .media h5 {
+    font-size: 18px;
+    color: #aeadad;
+    margin-bottom: 15px;
+}
+
+section.contact .other-products .media p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #737373;
+}
+
+/*footer*/
+
+footer {
+    background-color: #1d1d1d;
+    line-height: 70px !important;
+}
+
+footer ul li a {
+    height: 40px !important;
+    width: 40px !important;
+    background-color: #718292 !important;
+    color: #1d1d1d !important;
+    text-align: center !important;
+    border-radius: 50%;
+    display: block;
+    line-height: 40px;
+}
+
+footer ul {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul li a:hover {
+    background-color: #1479ec !important;
+}
+
+.label {
+    color: #fff;
+    text-align: right;
+    position: relative;
+    right: 32px;
+    top: 10px;
+}
+
+.copyright p {
+    font-size: 15px;
+    color: #919191;
+    text-align: left;
+    position: relative;
+    top: 11px;
+}
+
+@media (max-width: 900px) {
+    header {
+        overflow-x: hidden;
+    }
+    .product-img img:first-of-type {
+        width: 120%;
+    }
+    .none {
+        display: table-row;
+    }
+    .buttons {
+        margin-bottom: 50px;
+    }
+    .reduce-padding {
+        padding: 0 30px;
+    }
+    section.features .feature .media img {
+        margin: 0 2rem;
+    }
+    section.features .feature:nth-of-type(even) .media .media-body h5 {
+        padding-right: 0px !important;
+    }
+}
